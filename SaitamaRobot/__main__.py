@@ -100,10 +100,10 @@ And the following:
     "" if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n",
 )
 
-SAITAMA_IMG = "https://telegra.ph/file/46e6d9dfcb3eb9eae95d9.jpg"
+SAITAMA_IMG = "https://telegra.ph/file/4d30ab4317194dec28ce3.jpg"
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
- You can support the project via [Paypal](ko-fi.com/sawada) or by contacting @i_am_an_princes \
+ You can support the project via [TG](https://t.me/faucetmaker) or by contacting @i_am_an_princes \
  Supporting isnt always financial! \
  Those who cannot provide monetary support are welcome to help us develop the bot at @DragonAssociationSupport."""
 
@@ -241,7 +241,7 @@ def start(update: Update, context: CallbackContext):
                         [
                             InlineKeyboardButton(
                                 text="🧾 Getting started guide",
-                                url="https://t.me/OnePunchUpdates/29",
+                                url="https://t.me/DragonUpdates/4",
                             )
                         ],
                         [
