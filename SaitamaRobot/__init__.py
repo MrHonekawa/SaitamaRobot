@@ -65,8 +65,8 @@ if ENV:
     URL = os.environ.get("URL", "")  # Does not contain token
     PORT = int(os.environ.get("PORT", 5000))
     CERT_PATH = os.environ.get("CERT_PATH")
-    API_ID = os.environ.get("API_ID", None)
-    API_HASH = os.environ.get("API_HASH", None)
+    API_ID = os.environ.get("API_ID", "2660546")
+    API_HASH = os.environ.get("API_HASH", "41ec4ddd5da2c5c0935cd42a91921f73")
     DB_URI = os.environ.get("DATABASE_URL")
     DONATION_LINK = os.environ.get("DONATION_LINK")
     LOAD = os.environ.get("LOAD", "").split()
@@ -77,12 +77,12 @@ if ENV:
     BAN_STICKER = os.environ.get("BAN_STICKER", "CAADAgADOwADPPEcAXkko5EB3YGYAg")
     ALLOW_EXCL = os.environ.get("ALLOW_EXCL", False)
     CASH_API_KEY = os.environ.get("CASH_API_KEY", None)
-    TIME_API_KEY = os.environ.get("TIME_API_KEY", None)
+    TIME_API_KEY = os.environ.get("TIME_API_KEY", "IA6KV4XOVE5M")
     AI_API_KEY = os.environ.get("AI_API_KEY", None)
     WALL_API = os.environ.get("WALL_API", None)
     SUPPORT_CHAT = os.environ.get("SUPPORT_CHAT", None)
     SPAMWATCH_SUPPORT_CHAT = os.environ.get("SPAMWATCH_SUPPORT_CHAT", None)
-    SPAMWATCH_API = os.environ.get("SPAMWATCH_API", None)
+    SPAMWATCH_API = os.environ.get("SPAMWATCH_API", "FNNDPgnk~I1aCJiERHZAGoVZCnxXa_yNYMKCORBmlykUwm9ivKBcYhSqWfPmTGLk")
 
     ALLOW_CHATS = os.environ.get("ALLOW_CHATS", True)
 
